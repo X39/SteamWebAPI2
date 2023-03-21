@@ -1,6 +1,5 @@
 using System.Collections.Generic;
 using AutoMapper;
-using Steam.Models.DOTA2;
 using SteamWebAPI2.Models.DOTA2;
 using SteamWebAPI2.Models.GameEconomy;
 
