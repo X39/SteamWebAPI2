@@ -5,6 +5,6 @@ namespace Steam.Models.CSGO
     {
         Day,
         Week,
-        Month
+        Month,
     }
 }

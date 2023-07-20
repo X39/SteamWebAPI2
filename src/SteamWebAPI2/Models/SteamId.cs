@@ -17,7 +17,7 @@ namespace SteamWebAPI2.Models
         SteamId64,
         AccountIdApproximation,
         LegacySteamId,
-        ModernSteamId
+        ModernSteamId,
     }
 
     public enum SteamUniverse
@@ -26,7 +26,7 @@ namespace SteamWebAPI2.Models
         Public,
         Beta,
         Internal,
-        Dev
+        Dev,
     }
 
     public enum SteamAccountType
@@ -43,7 +43,7 @@ namespace SteamWebAPI2.Models
         Chat_Clan = 8,
         Chat_Lobby = 8,
         P2P_SuperSeeder = 9,
-        AnonUser = 10
+        AnonUser = 10,
     }
 
     public enum SteamInstance
@@ -51,7 +51,7 @@ namespace SteamWebAPI2.Models
         All = 0,
         Desktop = 1,
         Console = 2,
-        Web = 4
+        Web = 4,
     }
 
     #endregion Enum Types

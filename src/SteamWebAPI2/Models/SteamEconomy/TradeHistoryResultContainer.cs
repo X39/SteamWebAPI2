@@ -15,14 +15,14 @@ namespace SteamWebAPI2.Models.SteamEconomy
         InvalidItems = 8,
         CreateNeedsConfirmation = 9,
         CanceledBySecondFactor = 10,
-        InEscrow = 11
+        InEscrow = 11,
     }
 
     internal enum TradeOfferConfirmationMethod
     {
         Invalid = 0,
         Email = 1,
-        MobileApp = 2
+        MobileApp = 2,
     }
 
     internal enum TradeStatus
@@ -38,7 +38,7 @@ namespace SteamWebAPI2.Models.SteamEconomy
         RollbackFailed = 8,
         RollbackAbandoned = 9,
         InEscrow = 10,
-        EscrowRollback = 11
+        EscrowRollback = 11,
     }
 
     internal class TradedCurrency

@@ -11,6 +11,6 @@ namespace SteamWebAPI2.Interfaces
         CounterStrikeGO = 730,
         Portal2_Beta = 841,
         Artifact = 583950,
-        DotaUnderlords = 1046930
+        DotaUnderlords = 1046930,
     }
 }

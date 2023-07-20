@@ -16,6 +16,6 @@
         RollbackFailed = 8,
         RollbackAbandoned = 9,
         InEscrow = 10,
-        EscrowRollback = 11
+        EscrowRollback = 11,
     }
 }

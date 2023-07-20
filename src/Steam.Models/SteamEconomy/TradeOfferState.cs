@@ -15,6 +15,6 @@
         InvalidItems = 8,
         CreateNeedsConfirmation = 9,
         CanceledBySecondFactor = 10,
-        InEscrow = 11
+        InEscrow = 11,
     }
 }

@@ -31,7 +31,7 @@ namespace SteamWebAPI2.Utilities.JsonConverters
                 {
                     Name = x.Key,
                     Capacity = x.Value.Value<string>("capacity") ?? "unknown",
-                    Load = x.Value.Value<string>("load") ?? "unknown"
+                    Load = x.Value.Value<string>("load") ?? "unknown",
                 };
 
                 dataCenters.Add(dataCenter);

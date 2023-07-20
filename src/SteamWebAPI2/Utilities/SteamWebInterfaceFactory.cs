@@ -21,7 +21,7 @@ namespace SteamWebAPI2.Utilities
         public SteamWebInterfaceFactory(string steamWebApiKey) 
             : this(Options.Create(new SteamWebInterfaceFactoryOptions() 
             { 
-                SteamWebApiKey = steamWebApiKey
+                SteamWebApiKey = steamWebApiKey,
             })
         ) { }
 

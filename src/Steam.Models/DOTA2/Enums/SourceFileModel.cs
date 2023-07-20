@@ -9,6 +9,6 @@
         MainSchema,
         MainSchemaLocalization,
         PublicLocalization,
-        PanoramaLocalization
+        PanoramaLocalization,
     }
 }

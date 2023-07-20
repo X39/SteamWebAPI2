@@ -156,11 +156,11 @@ namespace SteamWebAPI2.Interfaces
                 steamid = steamId,
                 include_played_Free_games = includeFreeGamesBit,
                 include_appinfo = includeAppInfoBit,
-                appids_filter = appIdsToFilter
+                appids_filter = appIdsToFilter,
             };
             var inputJson = JsonConvert.SerializeObject(inputJsonObj, new JsonSerializerSettings()
             {
-                NullValueHandling = NullValueHandling.Ignore
+                NullValueHandling = NullValueHandling.Ignore,
             });
 
             parameters.AddIfHasValue(WebUtility.UrlEncode(inputJson), "input_json");

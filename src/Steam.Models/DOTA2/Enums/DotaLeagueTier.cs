@@ -4,6 +4,6 @@
     {
         Amateur = 1,
         Professional,
-        Premier
+        Premier,
     }
 }

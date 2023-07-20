@@ -5,6 +5,6 @@
         Public = 0,
         FriendsOnly = 1,
         Private = 2,
-        Unknown = 3
+        Unknown = 3,
     }
 }

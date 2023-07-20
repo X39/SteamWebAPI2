@@ -11,6 +11,6 @@
         Away = 3,
         Snooze = 4,
         Unknown = 5,
-        InGame = 6
+        InGame = 6,
     }
 }

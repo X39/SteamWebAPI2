@@ -8,6 +8,6 @@
         Unknown = 0,
         FriendsOnly = 1,
         Private = 2,
-        Public = 3
+        Public = 3,
     }
 }

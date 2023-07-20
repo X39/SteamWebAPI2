@@ -72,7 +72,7 @@ namespace SteamWebAPI2.Utilities.JsonConverters
 
             return new GameMapsPlaytimeResult()
             {
-                Playtimes = playtimes
+                Playtimes = playtimes,
             };
         }
 
